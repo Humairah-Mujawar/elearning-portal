@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Offered</title>
+</head>
+<body>
+    <p>Programming Courses:</p>
+    
+        {% for language in Programming %}
+        <p>
+        {{forloop.counter}} {{language}}
+        </p>
+        {% endfor %}
+  
+        <hr>
+        <p>Designing Courses:</p>
+
+        <table border="1px" cellpadding="5">
+            <thead>
+                <th>Software Name</th>
+                <th>Duration to complete</th>
+            </thead>
+            <tbody>
+                {% for software in Designing %}
+                <tr>
+                    <td>{{software.name}}</td>
+                    <td>{{software.duration}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+</body>
+</html>
