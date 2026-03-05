@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-t)27q$bjx7_x+&*g0l8-s^(f)yw#s46x=p@*-=x)__wp5&_m^^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['elearning-portal-production.up.railway.app']
 
 
 # Application definition
