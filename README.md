@@ -17,3 +17,5 @@ eLearning portal built using Python with Django
    ```
    python manage.py runserver
    ```
+6. The Terminal will give a URL, copy and paste it in browser to open app. <br/>
+For example: ```Starting development server at http://127.0.0.1:8000/ ```
