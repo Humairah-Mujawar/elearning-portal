@@ -13,4 +13,7 @@ eLearning portal built using Python with Django
    ALLOWED_HOSTS = ['elearning-portal-production.up.railway.app']
    ```
 4. Open Terminal and navigate to project path
-5. Type command  python manage.py runserver
+5. Type command
+   ```
+   python manage.py runserver
+   ```
